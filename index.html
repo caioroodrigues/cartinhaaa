@@ -308,13 +308,13 @@
     setInterval(createFallingEmoji, 250);
 
     window.addEventListener('load', () => {
-      for (let i = 0; i < 25; i++) {
+      for (let i = 0; i < 50; i++) {
         setTimeout(createFallingEmoji, i * 120);
       }
     });
 
     document.getElementById('love-btn').addEventListener('click', function() {
-      for (let i = 0; i < 12; i++) {
+      for (let i = 0; i < 25; i++) {
         setTimeout(createFallingEmoji, i * 100);
       }
       this.innerHTML = '<i class="fas fa-heart"></i> Amor Enviado!';
